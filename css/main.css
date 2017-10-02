@@ -1,0 +1,348 @@
+html{
+    height:100%;
+}
+
+body
+{
+    width: auto;
+    height: 100%;
+    background-image: url("imgs/bcg.png");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Lato', sans-serif;
+    margin:0 !important;
+}
+
+.container
+{
+    height: 100%;
+}
+.header
+{
+    height: 52px;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    z-index: 100;
+    transition: all 0.2s ease-in-out;
+}
+
+#tray
+{
+    float: left;
+    width: 40%;
+    height:50px;
+}
+
+#celownik
+{
+    float:left;
+    width:auto;
+    height:50px;
+}
+
+#pres
+{
+    float:left;
+    font-family: sans-serif;
+    font-size: 22px;
+    color: white;
+    padding-left: 10px;
+    margin: 3px;
+}
+
+.menu
+{
+    float: right;
+    width: 52%;
+    height: 100%;
+    
+    margin-left: 0;
+    margin-right: 10px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    
+    z-index: 100;
+    display: block;
+    
+    list-style: none;
+}
+
+.button
+{
+    display: none;
+}
+
+.verticalMenu
+{
+    display: none;
+    float: left;
+}
+
+.entry
+{
+    display: block;
+    padding-bottom: 10px;
+    float:left;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: inherit;
+    font-family: sans-serif;
+    font-size: 22px;
+    color: white;
+    width: 20%;
+    
+    transition: color .2s ease-in-out;
+}
+
+.entry:hover
+{
+
+    cursor:pointer;
+    color: #5194ff;
+}
+
+.drop
+{
+    display:none;
+    text-align: left;
+    font-size: 25px;
+    width: 100%;
+    list-style-type: none;
+}
+
+
+
+#text
+{
+    padding: 2px;
+}
+
+.blank
+{
+    clear:both;
+    width: 100%;
+    height: 100%;
+}
+
+
+.left
+{
+    width: 45%;
+    float: left;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+        
+}
+
+.center
+{
+   
+}
+
+.right
+{
+    width: 45%;
+    float: right;
+    font-size: 18px;
+    text-align: justify;
+    
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+}
+
+.container2
+{
+    height: 100%;
+    background-color: whitesmoke;
+    
+}
+
+.container3
+{
+    height: 90%;
+    background-image: url("imgs/lake.png");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: center;
+    
+}
+
+.filled
+{
+    background-color: black;
+    box-shadow: 0 10px 20px #888888;
+}
+
+.filledOnDrawer
+{
+    background-color: black;
+    box-shadow: 0 10px 20px #888888;
+}
+
+.small
+{
+    font-size: 12px;
+    margin: 2px;
+    clear:both;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: justify;
+    width: 100%;
+    height: 200px;
+}
+
+.headerSmall
+{
+    font-size: 32px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #888888;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.image
+{
+    box-shadow: 10px 10px 20px #888888;
+    height: 250px;
+    width: 350px;
+    transition: all 0.2s ease-in-out;
+    z-index: 10;
+    
+}
+
+#wall
+{
+    display: flex;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    position: relative;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.miniature
+{
+    width: 180px;
+    height: 150px;
+    background-color: blueviolet;
+    position: relative;
+    flex-wrap: wrap;
+    margin: 2%;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 10px 10px 20px #000000;
+    z-index: 1;
+}
+
+.miniature img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.imageHover
+{
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    box-shadow: 0 0 0;
+}
+
+.imageClick
+{
+    background-color: chocolate;
+    
+    -webkit-transform: rotateY(90deg) skewX(10deg) rotateZ(10deg);
+    -ms-transform: rotateY(90deg) skewX(10deg) rotateZ(10deg);
+    transform: rotateY(90deg) skewX(10deg) rotateZ(10deg);
+    
+    -webkit-transform-transform-origin: -50% 50%;
+    -ms-transform-origin: -50% 50%;
+    transform-origin: -50% 50%;
+    opacity: 0.0;
+    
+    
+}
+
+.drawer
+{
+    position: fixed;
+    top: -200%;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 90;
+    vertical-align: middle;
+    float: left;
+    text-align: center;
+    line-height: 100%;
+    
+    transition: all 0.2s ease-in-out;
+}
+
+.drawerOpen
+{
+    height: 100%;
+    width: 100%;
+    opacity: 1.0;
+    position: fixed;
+    top: 72px;
+    z-index: 90;
+    background-color: #888;
+    
+    transition: all 0.2s ease-in-out;
+    
+}
+
+.imageInDrawer
+{
+    
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+#close
+{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.8;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 15px;
+    cursor: pointer;
+    
+    position: absolute;
+    left: 0px;
+    bottom: 72px;
+    z-index: 100;
+}
+
+footer
+{
+    text-align: center;
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    font-size: 20px;
+}
