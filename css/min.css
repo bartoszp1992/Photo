@@ -1,0 +1,149 @@
+@media screen and (max-width:890px) and (max-height:950px)
+{
+    body
+    {
+        background-size: 100% auto;
+        width: auto;
+        background-image: url("imgs/bcg_min.png");
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100%;
+        margin:0 !important;
+    }
+    #tray
+    {
+        width: 80%;
+    }
+    
+    .container
+    {
+        height: 100%;
+        margin: 0;
+        
+    }
+    
+    .container2
+    {
+        clear: both;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    .left
+    {
+        float: none;
+        height: 48%;
+        width: 96%;
+        clear: both;
+        border: 0;
+        
+        left: 0;
+        right: 0;
+        padding: 2%;
+        margin: 0;
+    }
+    
+    .right
+    {
+        width: 96%;
+        float: none;
+        font-size: 12px;
+        text-align: justify;
+        height: 48%;
+        margin: 0;
+        padding: 2%;
+    }
+    
+
+    
+    .image
+    {
+        position: relative;
+        top: 15%;
+        margin: 0 auto;
+        box-shadow: 10px 10px 20px #888888;
+        height: 190px;
+        width: 280px;
+        transition: all 0.2s ease-in-out;
+    }
+    
+    
+    .menu
+    {
+        position: fixed;
+        top: 72px;
+        right: -100%;
+        height: 100%;
+        width: 40%;
+        background-color: aqua;
+        display: block;
+        margin: 0;
+        padding-right: 20px;
+        text-align: right;
+        background-color: black;
+        opacity: 0.8;
+        
+        transition: all 0.2s ease-in-out;
+    }
+    
+    .menuOpen
+    {
+        right: 0;
+    }
+    
+    .entry
+    {
+        display: block;
+        margin-top: 40px;
+        padding: 0;
+        font-size: 18px;
+        width: 100%;
+        float:none;
+        
+    }
+    
+    .button
+    {
+        display: block;
+        float: right;
+        cursor: pointer;
+        position: relative;
+        top: -80px;
+        height: 0;
+        
+        transition: all 0.2s ease-in-out;
+    }
+    
+    .visible
+    {
+        top: 0;
+        
+        transition: all 0.2s ease-in-out;
+    }
+    
+    .container3
+    {
+        height: 100%;
+    }
+    .content
+    {
+        margin: 0;
+    }
+    
+    .img
+    {
+        height: 250px;
+        width: 350px;
+    }
+    
+    .miniature
+    {
+        width: 120px;
+        height: 90px;
+    }
+    
+}
+

@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <link rel="stylesheet" href="css/min.css" type="text/css" />
+    <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+    <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&amp;subset=latin-ext" rel="stylesheet">
+</head>
+
+
+
+<body>
+    <div class="drawer" id="drawer">
+    <div id="fullPhoto"></div>
+    <div id="close">ZAMKNIJ</div>
+    </div>
+    <div id="mainContent" class="container">
+        <div class="header">
+            <div id="tray">
+                <img id="celownik" src="imgs/celownik.png">
+                <div id="pres">
+                    <div class="name">BARTOSZ P</div>
+                    <div class="name">FOTOGRAFIA</div>
+                </div>
+            </div>
+            
+            <div class="button visible" id="menuM" align="right"><i class="icon-menu"></i></div>
+            <div class="button" id="closeM" align="right"><i class="icon-cancel"></i></div>
+            
+            <ul class="menu" align="right">
+                <li class="entry" id="main" onclick="directScroll(mainContent)">
+                    GŁÓWNA
+                </li>
+                <li class="entry" id="about" onclick="directScroll(aboutContent)">
+                    O MNIE
+                </li>
+                <li class="entry" id="gallery" onclick="directScroll(galleryContent)">
+                    GALERIA
+                </li>
+                <li class="entry" id="contact" onclick="directScroll(contactContent)">
+                    KONTAKT
+                </li>
+            </ul>
+        </div>
+        <div class='blank'>
+        </div>
+    </div>
+    <div style="clear: both;"></div>
+    <div id="aboutContent" class="container2">
+        <div class="headerSmall">O mnie</div>
+        <div class="left">
+            <a>
+                <img class="image" src="imgs/bee.jpg" alt="pszczola"></img>
+            </a>
+        </div>
+        <div class="center"></div>
+        <div class="right">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum hic illum explicabo, voluptates perferendis id, molestias voluptas aut excepturi officiis eum rerum modi magnam impedit necessitatibus harum. Repudiandae eligendi, blanditiis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis sed molestiae incidunt exercitationem, vero voluptatibus nam quod perspiciatis odio. Nobis repellendus deserunt dignissimos nostrum velit dolorem repudiandae maxime aspernatur fuga! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </div>
+    </div>
+
+    <div id="galleryContent" class="container3">
+        <div class="headerSmall">GALERIA</div>
+        <ul id="wall">
+            <li id="m6" class="miniature"><img src="imgs/m6.jpg"></img></li>
+            <li id="m2" class="miniature"><img src="imgs/m2.jpg"></img></li>
+            <li id="m7" class="miniature"><img src="imgs/m7.jpg"></img></li>
+            <li id="m3" class="miniature"><img src="imgs/m3.jpg"></img></li>
+            
+            
+            <li id="m1" class="miniature"><img src="imgs/m1.jpg"></img></li>
+            <li id="m8" class="miniature"><img src="imgs/m8.jpg"></img></li>
+            <li id="m5" class="miniature"><img src="imgs/m5.jpg"></img></li>
+            <li id="m4" class="miniature"><img src="imgs/m4.jpg"></img></li>
+            
+        </ul>
+    </div>
+    
+    <div id="contactContent" class="container2">
+        <div class="headerSmall">KONTAKT</div>
+    </div>
+
+    <footer>
+        &copy; 2017 Bartosz P
+</footer>
+
+    <script src="js/main.js" type="text/javascript"></script>
+</body>
+
+</html>
