@@ -1,0 +1,30 @@
+@media screen and (max-height:450px)
+{
+    .left
+    {
+        float: left;
+        width: 40%;
+    }
+    
+    .right
+    {
+        width: 40%;
+        float: right;
+        font-size: 11px;
+        margin-top: 3%;
+    }
+    
+
+    
+    .image
+    {
+        height: 150px;
+        width: 210px
+    }
+    
+    .entry
+    {
+        margin-top: 15px;
+    }
+}
+
